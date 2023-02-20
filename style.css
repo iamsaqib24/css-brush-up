@@ -1,39 +1,5 @@
-h1 {
-  color: blueviolet;
-  font-family: monospace;
-}
-
-#first {
-  color: violet;
-}
-
-.purple {
-  color: purple;
-}
-
-.highlight {
-  background-color: yellow;
-  font-weight: bold;
-}
-
-/* Grouping selectors */
-
-#first,
-#second {
+body {
   text-align: center;
-}
-
-/* Nested selectors
-
-id > class > specific element
-
-*/
-ul > li {
-  list-style: none;
-}
-
-/* pseudo selector */
-
-p:hover {
-  font-family: fantasy;
+  background-color: #023047;
+  color: #edf2f4;
 }
