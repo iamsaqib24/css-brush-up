@@ -5,16 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <style>
-        p {
-            color: gray;
-        }
-    </style>
     <title>CSS</title>
 </head>
 <body>
-    <h1>Learning CSS</h1>
-    <p>I am staring brush-up my css skills to get good grasp.</p>
-    <button>Submit</button>
+    <header>
+        <h1 class="highlight">Learning CSS</h1>
+    </header>
+
+    <main>
+        <article id="first">
+            <h2>Element Selector</h2>
+            <p>It means that you will style using <span class="highlight">HTML</span> tag/element name.</p>
+        </article>
+
+        <article id="second" class="purple">
+            <h2>Id Selector</h2>
+            <p>It uses the Id attribute of an <span class="highlight">HTML</span> element. The Id should be unique.</p>
+        </article>
+
+        <article id="third" class="purple highlight">
+            <h2>Class Selector</h2>
+            <p>It uses class attribute of an HTML element to style the element.</p>
+        </article>
+
+        <ul>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ul>
+    </main>
 </body>
 </html>
