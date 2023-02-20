@@ -1,5 +1,55 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 
+/* Positioning in CSS */
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+  margin: 100px;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  /* right: 100px;
+  bottom: 100px; */
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+}
+
+.purple {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  position: sticky;
+  left: 200px;
+  top: 50px;
+}
+
+.scroll {
+  height: 300vh;
+}
+
 /*
 
 ---- Box Model ----
@@ -53,10 +103,10 @@ a {
 
 */
 
-* {
+/* * {
   padding: 0;
   margin: 0;
-  /* border: 1px solid red; */
+border: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -80,10 +130,10 @@ li {
   display: inline-block;
   color: white;
   margin: 10px 20px;
-  /* padding: 20px; */
+ padding: 20px;
 }
 
 li:hover {
   cursor: pointer;
   color: turquoise;
-}
+} */
