@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 /*
 
 Box Model
@@ -21,19 +23,22 @@ Box Model
 body {
   background-color: #02203c;
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 h1 {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-  text-shadow: 2px 2px #f6f9fc;
+  /* font-family: "Ubuntu", Helvetica, Arial, sans-serif; */
+  /* text-shadow: 2px 2px #f6f9fc; */
 }
 
 p {
-  text-indent: 40px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  line-height: 1.5rem;
+  /* text-indent: 40px; */
+  /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
+  /* line-height: 1.5rem;
   /* letter-spacing: 0.1rem; */
-  word-spacing: 5px;
+  /* word-spacing: 5px; */
+  font-weight: 100;
 }
 
 a {
