@@ -31,3 +31,9 @@ id > class > specific element
 ul > li {
   list-style: none;
 }
+
+/* pseudo selector */
+
+p:hover {
+  font-family: fantasy;
+}
