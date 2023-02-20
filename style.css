@@ -1,3 +1,7 @@
+/*
+
+Box Model
+
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +14,30 @@
   border: 20px solid red;
   padding: 30px;
   margin: 40px;
+}
+
+*/
+
+body {
+  background-color: #02203c;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  text-shadow: 2px 2px #f6f9fc;
+}
+
+p {
+  text-indent: 40px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  /* letter-spacing: 0.1rem; */
+  word-spacing: 5px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: line-through;
+  text-decoration-color: #02203c;
 }
