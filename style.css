@@ -1,17 +1,111 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 
-/* Float CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.outer-box {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+
+.inner-box {
+  width: 400px;
+  margin: auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 20px 40px;
+  /* background-color: white; */
+  background: linear-gradient(to top left, #ffffff, #a8f5ff);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #2773a5;
+}
+
+.header h1 {
+  color: #212121;
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.sign-up {
+  margin: 20px 0;
+}
+
+.sign-up p {
+  margin: 10px 0;
+}
+
+.sign-up p label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.sign-up p input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccccc;
+  border-radius: 4px;
+}
+
+.sign-up p input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up p input[type="submit"]:hover {
+  background-color: #20628f;
+}
+
+footer p {
+  color: #555;
+  text-align: center;
+}
+
+footer p a {
+  color: #2773a5;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: linear-gradient(to top right, #ffffff33, #ffffff);
+  position: absolute;
+}
+
+.c1 {
+  top: 100px;
+  left: 40px;
+}
+
+.c2 {
+  bottom: 200px;
+  right: 50px;
+}
+
+/* Float CSS */
+/*
 .container {
   /* height: 400px;
   width: 400px; */
-  border: 2px solid red;
-  /* overflow: scroll; */
-  /* overflow: hidden; */
-  /* overflow: auto; */
-}
+/* border: 2px solid red; */
+/* overflow: scroll; */
+/* overflow: hidden; */
+/* overflow: auto;
+} */
 
-.img-1 {
+/* .img-1 {
   float: right;
 }
 
@@ -21,7 +115,7 @@
 
 .p-2 {
   clear: left;
-}
+} */
 
 /* Positioning in CSS */
 
@@ -159,4 +253,4 @@ li {
 li:hover {
   cursor: pointer;
   color: turquoise;
-} */
+} */ ;
